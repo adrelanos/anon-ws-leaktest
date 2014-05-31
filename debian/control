@@ -1,0 +1,19 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: anon-ws-leaktest
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git, ruby-ronn (>= 0.7.3)
+Homepage: https://www.whonix.org/wiki/Dev/Leak_Tests
+Vcs-Browser: https://github.com/Whonix/anon-ws-leaktest
+Vcs-Git: https://github.com/Whonix/anon-ws-leaktest.git
+Standards-Version: 3.9.4
+
+Package: anon-ws-leaktest
+Architecture: all
+Depends: python-scapy, ${misc:Depends}
+Conflicts: anon-gw-leaktest
+Description: Leak Test for Anonymity Distribution Workstations
