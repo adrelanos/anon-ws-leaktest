@@ -20,19 +20,19 @@ leaktest
 
 ## DESCRIPTION
 
-Whonix-Workstation specific leaktest.
+Anon-Workstation specific leaktest.
 
 Advanced users, developers and auditors only!
 
 First installs python-scapy, which is required for this leak test script, then
-runs the leak tests /usr/share/whonix/leaktest/exhaustive_ip_send.py,
-/usr/share/whonix/leaktest/tcp_test.py and
-/usr/share/whonix/leaktest/udp_test.py.
+runs the leak tests /usr/lib/leaktest-workstation/exhaustive_ip_send.py,
+/usr/lib/leaktest-workstation/tcp_test.py and
+/usr/lib/leaktest-workstation/udp_test.py.
 
-The tester is supposed to run `leaktest` on Whonix-Gateway before starting
-leaktest on Whonix-Workstation.
+The tester is supposed to run `leaktest` on Anon-Gateway before starting
+leaktest on Anon-Workstation.
 
-There are other leak tests as well, please refer to the Whonix online
+There are other leak tests as well, please refer to the online
 documentation.
 
 ## RETURN VALUES
@@ -44,7 +44,7 @@ Please report a bug in case you catch return value 1.
 ## HOW TO INTERPRET THE RESULT
 
 It requires a background on basic networking, which is unfortunately outside
-the scope of this man page and Whonix documentation. Whonix online
+the scope of this man page and documentation. Online
 documentation pages LeakTests and LeakTestsOld contain hints for
 interpretation and other leak tests.
 
