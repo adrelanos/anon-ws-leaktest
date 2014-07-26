@@ -17,4 +17,8 @@ Architecture: all
 Depends: python, python-scapy, ${misc:Depends}
 Conflicts: anon-gw-leaktest
 Description: Leak Test for Anonymity Distribution Workstations
+ Integrated leak test.
+ .
+ Needs to be manually run.
+ .
  See https://www.whonix.org/wiki/Dev/Leak_Tests.
