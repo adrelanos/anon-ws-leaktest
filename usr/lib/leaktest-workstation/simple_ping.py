@@ -21,6 +21,8 @@ from scapy.all import *
 
 # define the target gateway & data payload
 target = "10.152.152.10"
+#target = "45.33.32.156"
+
 data = "testing"
 
 # define packets

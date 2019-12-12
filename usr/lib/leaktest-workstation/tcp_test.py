@@ -8,6 +8,8 @@ from scapy.all import *
 
 #define the target gateway & data payload
 target = "scanme.nmap.org"
+#target = "45.33.32.156"
+
 data = "testing"
 
 #define packets
