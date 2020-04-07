@@ -13,11 +13,11 @@ Standards-Version: 4.3.0
 
 Package: anon-ws-leaktest
 Architecture: all
-Depends: python, python-scapy, ${misc:Depends}
+Depends: python3, python3-scapy, ${misc:Depends}
 Conflicts: anon-gw-leaktest
 Description: Leak Test for Anonymity Distribution Workstations
  Integrated leak test.
  .
  Needs to be manually run.
  .
- See https://www.whonix.org/wiki/Dev/Leak_Tests.
+ See: https://www.whonix.org/wiki/Dev/Leak_Tests

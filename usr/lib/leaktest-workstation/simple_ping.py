@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/python3 -u
 
 ## Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
@@ -55,7 +55,7 @@ icmp.code = 0
 test_ping = sr1(ip/icmp/data)
 
 if isinstance(test_ping, types.NoneType):
-        print "No response"
+        print("No response")
 else:
 # Prints a short report on the packet received (if any).
         test_ping.summary()
