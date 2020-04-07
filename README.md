@@ -4,7 +4,7 @@ Integrated leak test.
 
 Needs to be manually run.
 
-See https://www.whonix.org/wiki/Dev/Leak_Tests.
+See: https://www.whonix.org/wiki/Dev/Leak_Tests
 ## How to install `anon-ws-leaktest` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
